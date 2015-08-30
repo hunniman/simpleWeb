@@ -1,4 +1,4 @@
-package dao.pojo.role;
+package dao.pojo.guild;
 
 import java.io.Serializable;
 
@@ -7,7 +7,7 @@ import dao.pojo.annotation.ColumnVar;
 import dao.pojo.annotation.Table;
 
 @SuppressWarnings("serial")
-@Table
+@Table(name="guild")
 public class Guild extends BaseEntity implements Serializable{
    
 	@ColumnVar(len=50,defVal="", comment = "帮会名称")

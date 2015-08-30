@@ -27,6 +27,15 @@ public class RoleController {
 
 	@RequestMapping(value="/")
 	String home(){
+		Role role = new Role();
+		role.setCreateTime((int)System.currentTimeMillis()/1000);
+		role.setName("test");
+		try {
+			roleDao.save(role);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	   return "helloWorld ddd";  
     }
     

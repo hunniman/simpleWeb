@@ -89,7 +89,6 @@
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-server</artifactId>
-			<version>9.3.2.v20150730</version>
 		</dependency>
 
 		<dependency>
@@ -119,6 +118,12 @@
 			<artifactId>spring-beans</artifactId>
 			<!-- <version>4.2.0.RELEASE</version> -->
 		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-webapp</artifactId>
+		</dependency>
+
 
 	</dependencies>
 </project>
