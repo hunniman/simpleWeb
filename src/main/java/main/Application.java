@@ -43,7 +43,7 @@ public class Application {
 		// RoleDao roleDao=content.getBean(RoleDao.class);
 		try {
 			 SpringApplication.run(RoleController.class, args);
-			ddLUtil.initTableModel();
+			 ddLUtil.initTableModel();
 			 logger.debug("初始化表完成！");
 			// Role role =new Role();
 			// role.setId(604144);
